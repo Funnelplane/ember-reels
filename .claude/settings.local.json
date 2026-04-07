@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(mkdir -p lib)",
+      "Bash(mkdir -p app/api/generate)",
+      "Bash(mkdir -p app/api/library)",
+      "Bash(mkdir -p app/api/calendar)",
+      "Bash(mkdir -p app/api/profile)",
+      "Bash(mkdir -p \"app/generate\")",
+      "Bash(mkdir -p \"app/library\")",
+      "Bash(mkdir -p \"app/calendar\")",
+      "Bash(mkdir -p \"app/profile\")",
+      "Bash(mkdir -p \"app/settings\")",
+      "Bash(npx tsc:*)",
+      "Bash(npm run:*)",
+      "Bash(curl -s http://localhost:3000)",
+      "Bash(curl -s http://localhost:3000/api/creators)",
+      "Bash(pkill -f \"next dev\")"
+    ]
+  }
+}
